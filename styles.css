@@ -139,6 +139,19 @@ span {
   justify-content: space-between;
 }
 
+.item-container .item .header {
+  background: linear-gradient( 90deg,
+            rgb(110, 200, 255),
+            rgb(247, 255, 222) 25%,
+            rgb(247, 255, 222) 75%,
+            rgb(110, 200, 255) 
+            );
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
 .item-container .select {
   width: 100%;
   height: 3em;
