@@ -57,7 +57,7 @@ section {
   display: block;
   text-align: center;
   margin-top: 100px;
-  width:90%;
+  width:60%;
 }
 
 input {
@@ -140,13 +140,12 @@ span {
 }
 
 .item-container .item .header {
-  background: linear-gradient( 90deg,
-            rgb(110, 200, 255),
-            rgb(247, 255, 222) 25%,
-            rgb(247, 255, 222) 75%,
-            rgb(110, 200, 255) 
-            );
-  width: 100%;
+  background: linear-gradient(
+              rgb(110, 100, 255) 70%,
+              rgb(110, 200, 255));
+  color: rgb(247, 255, 222);
+  font-weight: bold;
+   width: 100%;
   font-size: 18px;
   display: flex;
   justify-content: center;
@@ -189,8 +188,9 @@ input[type="email"] {
 }
 
 #header {
-  
-  background-color: rgb(110, 100, 255);
+  background: linear-gradient(
+              rgb(110, 100, 255) 80%,
+              rgb(110, 200, 255));
   color:rgb(247, 255, 222);
   width: 100%;
   display: flex;
@@ -254,6 +254,7 @@ input[type="email"] {
   }
 
   #header {
+  width: auto;
   background-color: rgb(247, 255, 222);
   flex-direction: row;
   justify-content: space-between;
