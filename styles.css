@@ -145,7 +145,8 @@ span {
               rgb(110, 200, 255));
   color: rgb(247, 255, 222);
   font-weight: bold;
-   width: 100%;
+  width: 100%;
+  padding: 10px;
   font-size: 18px;
   display: flex;
   justify-content: center;
